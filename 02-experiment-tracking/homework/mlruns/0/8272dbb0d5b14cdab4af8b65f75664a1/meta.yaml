@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/mlops-zoomcamp/02-experiment-tracking/homework/mlruns/0/8272dbb0d5b14cdab4af8b65f75664a1/artifacts
+end_time: 1658877267689
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8272dbb0d5b14cdab4af8b65f75664a1
+run_uuid: 8272dbb0d5b14cdab4af8b65f75664a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1658877248605
+status: 3
+tags: []
+user_id: dima
