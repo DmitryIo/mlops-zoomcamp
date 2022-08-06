@@ -12,13 +12,13 @@ Remember that to pass the project, you must evaluate 3 peers. If you don't do th
 
 Project:
 
-* Form: TBA
+* Form: https://forms.gle/7UmQkK4BBxqdgMDp9
 * Deadline: 15 August, 23:00 CEST
 
 Peer reviewing:
 
 * Peer review assignments: TBA
-* Form: TBA
+* Form: https://forms.gle/KaBMoYhmfeEFmiWb7
 * Deadline: 22 August, 23:00 CEST
 
 Project feedback: TBA
@@ -81,7 +81,7 @@ If you're not certain about some tools, ask in Slack.
     * 2 points: Problem is well described and it's clear what the problem the project solves
 * Cloud
     * 0 points: Cloud is not used, things run only locally
-    * 2 points: The project is developed on the cloud
+    * 2 points: The project is developed on the cloud OR the project is deployed to Kubernetes or similar container management platforms
     * 4 points: The project is developed on the cloud and IaC tools are used for provisioning the infrastructure
 * Experiment tracking and model registry
     * 0 points: No experiment tracking or model registry
@@ -97,8 +97,8 @@ If you're not certain about some tools, ask in Slack.
     * 4 points: The model deployment code is containerized and could be deployed to cloud or special tools for model deployment are used
 * Model monitoring
     * 0 points: No model monitoring
-    * 2 points: TBA
-    * 4 points: TBA
+    * 2 points: Basic model monitoring that calculates and reports metrics
+    * 4 points: Comprehensive model monitoring that send alerts or runs a conditional workflow (e.g. retraining, generating debugging dashboard, switching to a different model) if the defined metrics threshold is violated
 * Reproducibility
     * 0 points: No instructions how to run code at all
     * 2 points: Some instructions are there, but they are not complete

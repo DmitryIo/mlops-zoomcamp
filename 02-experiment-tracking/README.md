@@ -84,3 +84,5 @@ Did you take notes? Add them here:
 * [Week2: Experiment tracking notes and notebook by Bhagabat](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week2)
 * [Notes of ML-flow by Jaime Cabrera-Salcedo](https://github.com/jaimeh94/MLOps-Zoomcamp/tree/main/02-experiment-tracking)
 * Send a PR, add your notes above this line
+
+# mlflow server -h 0.0.0.0 -p 5001 --backend-store-uri postgresql://mlflow_dima:mlflow_dima@rc1b-sbyy5ijoojqe7n4a.mdb.yandexcloud.net:6432/db_mlflow --default-artifact-root https://storage.yandexcloud.net/mlflow-artifacts-remote
