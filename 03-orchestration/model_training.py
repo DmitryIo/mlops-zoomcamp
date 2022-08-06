@@ -13,7 +13,7 @@ from hyperopt.pyll import scope
 
 import mlflow
 
-mlflow.set_tracking_uri("sqlite:///mlflow.db")
+mlflow.set_tracking_uri("http://localhost:5000")
 mlflow.set_experiment("nyc-taxi-experiment")
 
 def read_dataframe(filename):
@@ -98,7 +98,7 @@ def train_model_search(train, valid, y_val):
             booster = xgb.train(
                 params=params,
                 dtrain=train,
-                num_boost_round=1000,
+                num_boost_round=100,
                 evals=[(valid, 'validation')],
                 early_stopping_rounds=50
             )
