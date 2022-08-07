@@ -108,7 +108,7 @@ def main(date=None):
 
 DeploymentSpec(
     flow=main,
-    name="popik",
+    name="model_training",
     schedule=CronSchedule(cron="0 9 15 * *"),
     flow_runner=SubprocessFlowRunner(),
     tags=["homework"]
