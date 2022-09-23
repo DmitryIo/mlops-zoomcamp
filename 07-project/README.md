@@ -22,7 +22,7 @@ Peer reviewing:
 * Form: https://forms.gle/BeQ2HCohrM3puKf26
 * Deadline: 19 September, 23:00 CEST
 
-Project feedback: TBA
+Project feedback: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vRB5xKkhCyAUVNSNJvxaP94RwgNbYhf3dNf_ctRHhNKvvQQB94YVBn9JRdCTdQb5NGCJdYBtjXP7tP9/pubhtml) ("feedback-02" tab)
 
 
 #### Project Cohort #1
@@ -38,7 +38,17 @@ Peer reviewing:
 * Form: https://forms.gle/KaBMoYhmfeEFmiWb7
 * Deadline: 29 August, 23:00 CEST
 
-Project feedback: TBA
+Project feedback: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vRB5xKkhCyAUVNSNJvxaP94RwgNbYhf3dNf_ctRHhNKvvQQB94YVBn9JRdCTdQb5NGCJdYBtjXP7tP9/pubhtml) ("feedback-02" tab)
+
+
+Getting your hash for peer reviewing:
+
+```python
+from hashlib import sha1
+
+def compute_hash(email):
+    return sha1(email.lower().encode('utf-8')).hexdigest()
+```
 
 
 
